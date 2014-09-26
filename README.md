@@ -2,21 +2,33 @@
 
 ##Information
 Version: 1.0
+
 GitHub repository: https://github.com/fortesit/linux-shell-simulator
+
 Author: Sit King Lok
+
 Last modified: 2014-09-26 19:48
+
  
 ##Description
 A simplified Linux shell with the following features
+
 1. Accept most of the commands with arguments (e.g. cd, ls -a, exit)
+
 2. I/O redirection (i.e. >, >>, <, <<)
+
 3. Pipes (i.e. |)
+
 4. Signal handling (e.g. Ctrl+Z, Ctrl+C)
+
 5. Job control (i.e. jobs, fg)
 
+
 ##Usage
+```
 gcc shell.c -o shell
 ./shell
+```
 
 ##Platform
 Unix(Mac/Linux)
