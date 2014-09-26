@@ -25,6 +25,7 @@ Unix(Mac/Linux)
 All arguments should have a white-space in between.
  
 ##Example
+```
 airman2:~ Sit$ ./shell
 [3150 shell:/Users/Sit]$ mkdir test
 [3150 shell:/Users/Sit]$ cd test
@@ -53,3 +54,4 @@ round-trip min/avg/max/stddev = 31.467/32.032/32.598/0.566 ms
 World
 [3150 shell:/Users/Sit/test]$ exit
 airman2:~ Sit$
+```
